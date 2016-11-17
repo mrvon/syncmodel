@@ -25,7 +25,9 @@ local function print_r(root)
 		end
 		return tconcat(temp,"\n"..space)
 	end
+    print("------------------------->")
 	print(_dump(root, "",""))
+    print("-------------------------<")
 end
 
 return print_r
